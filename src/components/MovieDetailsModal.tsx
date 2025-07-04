@@ -224,7 +224,6 @@ const MovieDetailsModal: React.FC<MovieDetailsModalProps> = ({ movieId, onClose 
                       height="400"
                       src={`https://www.youtube.com/embed/${trailer.key}`}
                       title={trailer.name}
-                      frameBorder="0"
                       allowFullScreen
                     ></iframe>
                   </div>
